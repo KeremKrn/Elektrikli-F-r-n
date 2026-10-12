@@ -7,7 +7,7 @@ Bu proje, meslek lisesi Elektrik-Elektronik Alanı 9. sınıf eğitimi kapsamın
 Sistem, termokupl ile alınan sıcaklık verisine göre rezistansın SSR röle üzerinden güvenli bir şekilde anahtarlanmasını sağlar.
 
 ## Proje Özellikleri ve Çalışma Mantığı
-* **Sıcaklık Ölçümü:** MAX6675 (veya MAX6775) termokupl modülü kullanılarak yüksek sıcaklık değerleri okunur.
+* **Sıcaklık Ölçümü:** MAX6675 termokupl modülü kullanılarak yüksek sıcaklık değerleri okunur.
 * **Güç Kontrolü:** Arduino dijital çıkışı ile tetiklenen 25A SSR (Solid State Relay) üzerinden 220V rezistans hattı anahtarlanır.
 * **Kullanıcı Arayüzü:** 20x4 LCD ekran ve yön butonları ile sistem durumu takip edilir.
 * **Veri Kaydı:** MicroSD kart modülü ile çalışma verileri kaydedilebilir.
@@ -29,8 +29,6 @@ Sistem, termokupl ile alınan sıcaklık verisine göre rezistansın SSR röle �
 
 ## Bağlantı Şeması ve Güvenlik Uyarısı
 Sistem bağlantı detayları `docs/circuit_diagram.png` dosyasında yer almaktadır. 
-
-**Uyarı:** Bu çalışma 220V şebeke gerilimi barındırmaktadır. Test ve montaj aşamalarında yalıtım önlemlerine dikkat edilmelidir.
 
 ---
 
